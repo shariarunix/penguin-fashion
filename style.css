@@ -58,6 +58,8 @@ header nav{
     color: #3C3C3C;
 }
 .home-sec{
+    width: 100%;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,8 +67,11 @@ header nav{
 .home-sec .left-side{
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.home-sec .right-sec{
+.home-sec .right-side{
     width: 50%;
     height: 100%;
     display: flex;
@@ -75,20 +80,60 @@ header nav{
 }
 .profile-image{
     width: 550px;
+    padding-bottom: 70px;
 }
 .left-side h1{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 1px;
     color: #363958;
 }
 .left-side h1 span{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 1px;
     color: #A4BC46;
+}
+.left-side p{
+    width: 80%;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    color: #3E3E3E;
+    margin-top: 15px;
+}
+.left-side .buy{
+    margin-top: 55px;
+}
+.buy-btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #A4BC46, #85A019);
+}
+.buy-btn i{
+    color: hsla(0, 0%, 100%, 0.9);
+    margin-right: 5px;
+}
+
+/*Products*/
+.woman-jacket{
+    margin-top: 60px;
+}
+.products-title{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    font-weight: 600px;
+    letter-spacing: 2px;
+    color: #363958;
+    margin-bottom: 60px;
 }
