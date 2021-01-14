@@ -18,6 +18,7 @@ li{
 }
 .container{
     max-width: 1170px;
+    width: 1170px!important;
     margin: 0 auto;
 }
 .home{
@@ -55,25 +56,22 @@ header nav{
     color: hsla(0, 0%, 24%, 0.85);
     transition: 0.1s ease;
 }
-.menu li a:hover{
-    color: hsla(0, 0%, 24%, 100);
-    transform: scale(1.2);
-}
-.home-section{
+.menu li a:
+.home-sec{
     width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home-section .left-side{
+.home-sec .left-side{
     width: 48%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.home-section .right-side{
+.home-sec .right-side{
     width: 48%;
     height: 100%;
     display: flex;
@@ -382,20 +380,20 @@ footer h6{
     }
 }
 @media (max-width: 768px) {
-    .home-section{
+    .home-sec{
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    .home-section .left-side{
+    .home-sec .left-side{
         width: 100%;
         box-sizing: border-box;
         padding: 80px 60px 40px;
         height: auto;
     }
-    .home-section .right-side{
+    .home-sec .right-side{
         width: 100%;
         height: auto;
     }
@@ -462,7 +460,7 @@ footer h6{
         margin-top: 18px;
     }
 }
-@media (max-width: 550px) {
+@media (min-width: 425px) and (max-width: 550px) {
     .profile-image{
         width: 425px;
     }
@@ -511,7 +509,7 @@ footer h6{
         font-size: 70px;
         line-height: 65px;
     }
-    .home-section .left-side{
+    .home-sec .left-side{
         padding: 80px 35px 40px 35px;
     }
     .left-side p{
@@ -574,4 +572,19 @@ footer h6{
     .social-icons a i{
         font-size: 40px;
     }
+}
+@media (min-width: 992px){   
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+.nav-link{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsla(0, 0%, 24%, 0.85);
+    transition: 0.1s ease;
+}
+.nav-link:hover{
+    color: #3C3C3C;
 }
