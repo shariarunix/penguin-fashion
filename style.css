@@ -80,13 +80,15 @@ header nav{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
-    line-height: 80px;
+    line-height: 90px;
+    letter-spacing: 2px;
     color: #363958;
 }
 .left-side h1 span{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
-    line-height: 80px;
-    color: #FABE4C;
+    line-height: 90px;
+    letter-spacing: 2px;
+    color: #A4BC46;
 }
